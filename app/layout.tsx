@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Messaging Pointers - AI-Powered Messaging Pointers for Smarter Communication",
-  description: "Messaging Pointers gives you AI-powered tips to communicate smarter. Get instant, unbiased guidance — no salespeople, no pressure.",
+  title: "Messaging Pointers - Online Messaging Games That Earn You Prestige and Aura",
+  description: "Messaging Pointers is the online gaming platform where messaging challenges earn you prestige and aura. Play, compete, and glow.",
 };
 
 export default function RootLayout({
