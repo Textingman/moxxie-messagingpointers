@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Messaging Pointers</h3>
             <p style={{ color: '#BAE6FD' }}>
-              AI-powered messaging tips and pointers to help you communicate smarter.
+              Online games with messaging challenges that earn you prestige and aura.
             </p>
             {/* Social Icons */}
             <div className="flex items-center gap-4 mt-4">
@@ -32,7 +32,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Product</h4>
             <ul className="space-y-2">
               <li><Link href="/about" style={{ color: '#BAE6FD' }} className="hover:text-white">About</Link></li>
-              <li><Link href="/signup" style={{ color: '#BAE6FD' }} className="hover:text-white">Get Messaging Tips</Link></li>
+              <li><Link href="/signup" style={{ color: '#BAE6FD' }} className="hover:text-white">Play & Earn Prestige</Link></li>
             </ul>
           </div>
           <div>
