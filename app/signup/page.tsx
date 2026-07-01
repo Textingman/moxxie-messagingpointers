@@ -87,18 +87,28 @@ export default function SignupPage() {
                 <textarea name="message" rows={4} value={formData.message} onChange={handleChange} placeholder="Tell us about your situation..." className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none" style={{ borderColor: '#E5E7EB' }} />
               </div>
 
+              {/* Privacy Policy & Terms — standalone links above SMS consent */}
+              <div className="pt-2 pb-1">
+                <p className="text-sm" style={{ color: '#6B7280' }}>
+                  By submitting this form, you agree to our{' '}
+                  <a href="/privacy" style={{ color: '#0EA5E9' }} className="underline">Privacy Policy</a>
+                  {' '}and{' '}
+                  <a href="/terms" style={{ color: '#0EA5E9' }} className="underline">Terms of Service</a>.
+                </p>
+              </div>
+
               {/* SMS Consent Checkboxes */}
               <div className="space-y-4 pt-2">
                 <div className="flex items-start gap-3">
                   <input type="checkbox" id="accountNotifications" checked={accountNotifications} onChange={(e) => setAccountNotifications(e.target.checked)} className="mt-1 w-4 h-4 rounded" style={{ accentColor: '#0EA5E9' }} />
                   <label htmlFor="accountNotifications" className="text-sm" style={{ color: '#6B7280' }}>
-                    By checking this box, I agree to receive Account Notification SMS messages from Messaging Pointers at the phone number provided. I understand I may opt out at any time by replying STOP. Reply HELP for help. Message and data rates may apply. Message frequency varies. Opting in is optional and not required to submit this form. Consent is not required as a condition of purchasing any products or services. See our <a href="/privacy" style={{ color: '#0EA5E9' }}>Privacy Policy</a> and <a href="/terms" style={{ color: '#0EA5E9' }}>Terms of Service</a>.
+                    By checking this box, I agree to receive Account Notification SMS messages from Messaging Pointers at the phone number provided. I understand I may opt out at any time by replying STOP. Reply HELP for help. Message and data rates may apply. Message frequency varies. Opting in is optional and not required to submit this form. Consent is not required as a condition of purchasing any products or services.
                   </label>
                 </div>
                 <div className="flex items-start gap-3">
                   <input type="checkbox" id="customerCare" checked={customerCare} onChange={(e) => setCustomerCare(e.target.checked)} className="mt-1 w-4 h-4 rounded" style={{ accentColor: '#0EA5E9' }} />
                   <label htmlFor="customerCare" className="text-sm" style={{ color: '#6B7280' }}>
-                    By checking this box, I agree to receive Promotional Marketing SMS messages from Messaging Pointers at the phone number provided, including special offers, new quests, and exclusive challenges. I understand I may opt out at any time by replying STOP. Reply HELP for help. Message and data rates may apply. Message frequency varies. Opting in is optional and not required to submit this form. Consent is not required as a condition of purchasing any products or services. See our <a href="/privacy" style={{ color: '#0EA5E9' }}>Privacy Policy</a> and <a href="/terms" style={{ color: '#0EA5E9' }}>Terms of Service</a>.
+                    By checking this box, I agree to receive Promotional Marketing SMS messages from Messaging Pointers at the phone number provided, including special offers and exclusive updates. I understand I may opt out at any time by replying STOP. Reply HELP for help. Message and data rates may apply. Message frequency varies. Opting in is optional and not required to submit this form. Consent is not required as a condition of purchasing any products or services.
                   </label>
                 </div>
               </div>
