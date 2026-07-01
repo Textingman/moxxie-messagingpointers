@@ -47,7 +47,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Contact</h4>
             <p style={{ color: '#BAE6FD' }}>support@messagingpointers.com</p>
             <p className="mt-2" style={{ color: '#BAE6FD' }}>8 The Green, Ste A, Dover, DE 19901</p>
-            <p className="mt-2" style={{ color: '#BAE6FD' }}></p>
+            <p className="mt-2" style={{ color: '#BAE6FD' }}>(833) 648-2917</p>
           </div>
         </div>
         <div className="mt-8 pt-8 text-center" style={{ borderTop: '1px solid #0EA5E9', color: '#BAE6FD' }}>
