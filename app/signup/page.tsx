@@ -87,14 +87,15 @@ export default function SignupPage() {
                 <textarea name="message" rows={4} value={formData.message} onChange={handleChange} placeholder="Tell us about your situation..." className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:outline-none" style={{ borderColor: '#E5E7EB' }} />
               </div>
 
-              {/* Privacy Policy & Terms — standalone links above SMS consent */}
-              <div className="pt-2 pb-1">
-                <p className="text-sm" style={{ color: '#6B7280' }}>
-                  By submitting this form, you agree to our{' '}
+              {/* Privacy Policy & Terms — checkbox */}
+              <div className="flex items-start gap-3 pt-2">
+                <input type="checkbox" id="termsAgreement" required className="mt-1 w-4 h-4 rounded" style={{ accentColor: '#0EA5E9' }} />
+                <label htmlFor="termsAgreement" className="text-sm" style={{ color: '#6B7280' }}>
+                  I have read and agree to the{' '}
                   <a href="/privacy" style={{ color: '#0EA5E9' }} className="underline">Privacy Policy</a>
                   {' '}and{' '}
-                  <a href="/terms" style={{ color: '#0EA5E9' }} className="underline">Terms of Service</a>.
-                </p>
+                  <a href="/terms" style={{ color: '#0EA5E9' }} className="underline">Terms of Service</a>. *
+                </label>
               </div>
 
               {/* SMS Consent Checkboxes */}
