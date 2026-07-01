@@ -102,7 +102,7 @@ export default function SignupPage() {
                 <div className="flex items-start gap-3">
                   <input type="checkbox" id="accountNotifications" checked={accountNotifications} onChange={(e) => setAccountNotifications(e.target.checked)} className="mt-1 w-4 h-4 rounded" style={{ accentColor: '#0EA5E9' }} />
                   <label htmlFor="accountNotifications" className="text-sm" style={{ color: '#6B7280' }}>
-                    By checking this box, I agree to receive Account Notification SMS messages from Messaging Pointers at the phone number provided. I understand I may opt out at any time by replying STOP. Reply HELP for help. Message and data rates may apply. Message frequency varies. Opting in is optional and not required to submit this form. Consent is not required as a condition of purchasing any products or services.
+                    By checking this box, I agree to receive Transactional Account Notification SMS messages from Messaging Pointers at the phone number provided. I understand I may opt out at any time by replying STOP. Reply HELP for help. Message and data rates may apply. Message frequency varies. Opting in is optional and not required to submit this form. Consent is not required as a condition of purchasing any products or services.
                   </label>
                 </div>
                 <div className="flex items-start gap-3">
