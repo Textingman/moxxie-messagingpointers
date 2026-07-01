@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Bot, BookOpen, ShieldCheck } from 'lucide-react';
+import { Star, Shield, Zap } from 'lucide-react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -13,8 +13,8 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold mb-6" style={{ backgroundColor: '#E0F2FE', color: '#0EA5E9' }}>
-              <Bot className="w-4 h-4" />
-              AI-Powered — 100% Independent
+              <Star className="w-4 h-4" />
+              Messaging Pointers
             </div>
             <h1 className="text-5xl font-extrabold sm:text-6xl md:text-7xl" style={{ color: '#1F2937' }}>
               Game, Chat, Earn Prestige
@@ -28,7 +28,7 @@ export default function HomePage() {
                 Play & Earn Prestige
               </Link>
               <Link href="/about" className="px-8 py-4 text-lg font-semibold rounded-lg transition-opacity hover:opacity-90 border-2" style={{ color: '#0EA5E9', borderColor: '#0EA5E9', backgroundColor: '#FFFFFF' }}>
-                How It Works
+                Learn More
               </Link>
             </div>
           </div>
@@ -39,36 +39,36 @@ export default function HomePage() {
       <section className="py-20" style={{ backgroundColor: '#FFFFFF' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold" style={{ color: '#1F2937' }}>What Our AI Agent Does For You</h2>
-            <p className="mt-4 text-xl" style={{ color: '#6B7280' }}>A knowledgeable expert available 24/7 — with zero agenda</p>
+            <h2 className="text-4xl font-bold" style={{ color: '#1F2937' }}>Why Choose Messaging Pointers</h2>
+            <p className="mt-4 text-xl" style={{ color: '#6B7280' }}>Online games with messaging challenges that earn you prestige and aura.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow border" style={{ borderColor: '#0EA5E933' }}>
               <div className="flex justify-center mb-4">
                 <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: '#E0F2FE' }}>
-                  <Bot className="w-7 h-7" style={{ color: '#0EA5E9' }} />
+                  <Star className="w-7 h-7" style={{ color: '#0EA5E9' }} />
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#1F2937' }}>Instant AI Answers</h3>
-              <p className="text-center" style={{ color: '#6B7280' }}>Get immediate, accurate answers to your questions — no waiting, no appointments needed.</p>
+              <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#1F2937' }}>Trusted & Reliable</h3>
+              <p className="text-center" style={{ color: '#6B7280' }}>Get the support and guidance you need from a platform you can trust — available whenever you need it.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow border" style={{ borderColor: '#0EA5E933' }}>
               <div className="flex justify-center mb-4">
                 <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: '#E0F2FE' }}>
-                  <ShieldCheck className="w-7 h-7" style={{ color: '#0EA5E9' }} />
+                  <Shield className="w-7 h-7" style={{ color: '#0EA5E9' }} />
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#1F2937' }}>100% Unbiased</h3>
-              <p className="text-center" style={{ color: '#6B7280' }}>No sales pressure, no hidden agendas. Just honest, independent guidance tailored to your needs.</p>
+              <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#1F2937' }}>Safe & Secure</h3>
+              <p className="text-center" style={{ color: '#6B7280' }}>Your privacy matters. We keep your information safe and never share it without your consent.</p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow border" style={{ borderColor: '#0EA5E933' }}>
               <div className="flex justify-center mb-4">
                 <div className="w-14 h-14 rounded-full flex items-center justify-center" style={{ backgroundColor: '#E0F2FE' }}>
-                  <BookOpen className="w-7 h-7" style={{ color: '#0EA5E9' }} />
+                  <Zap className="w-7 h-7" style={{ color: '#0EA5E9' }} />
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#1F2937' }}>Always Learning</h3>
-              <p className="text-center" style={{ color: '#6B7280' }}>Our AI stays up-to-date with the latest information so you always get accurate, current guidance.</p>
+              <h3 className="text-xl font-bold text-center mb-3" style={{ color: '#1F2937' }}>Fast & Easy</h3>
+              <p className="text-center" style={{ color: '#6B7280' }}>Get started in minutes. No complicated setup, no long waits — just fast, straightforward access.</p>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@ export default function HomePage() {
       <section className="py-20" style={{ backgroundColor: '#F0F9FF' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6" style={{ color: '#1F2937' }}>Ready to Get Started?</h2>
-          <p className="text-xl mb-10" style={{ color: '#6B7280' }}>Join thousands of people who trust Messaging Pointers for clear, unbiased guidance.</p>
+          <p className="text-xl mb-10" style={{ color: '#6B7280' }}>Join thousands of people who trust Messaging Pointers.</p>
           <Link href="/signup" className="px-10 py-5 text-white text-xl font-semibold rounded-lg shadow-lg transition-opacity hover:opacity-90" style={{ backgroundColor: '#0EA5E9' }}>
             Play & Earn Prestige
           </Link>
