@@ -36,7 +36,7 @@ export default function Navbar() {
                 Terms
               </Link>
               <Link href="/signup" className="text-white px-4 py-2 rounded-md text-sm font-medium" style={{ backgroundColor: '#0EA5E9' }}>
-                Get Messaging Tips
+                Play & Earn Prestige
               </Link>
             </div>
           </div>
