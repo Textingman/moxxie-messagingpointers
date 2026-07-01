@@ -84,7 +84,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-sm font-semibold uppercase tracking-wide mb-1" style={{ color: '#9CA3AF' }}>Mailing Address</h3>
-                  <p style={{ color: '#6B7280' }}>Messaging Pointers<br />8 The Green, Ste A<br />Dover, DE 19901</p>
+                  <p style={{ color: '#6B7280' }}>Messaging Pointers<br />800 N King Street 304-1991<br />Wilmington, DE 19801</p>
                 </div>
                 <div>
                   <h3 className="text-sm font-semibold uppercase tracking-wide mb-1" style={{ color: '#9CA3AF' }}>SMS Support</h3>
