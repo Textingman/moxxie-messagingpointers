@@ -17,15 +17,15 @@ export default function HomePage() {
               AI-Powered — 100% Independent
             </div>
             <h1 className="text-5xl font-extrabold sm:text-6xl md:text-7xl" style={{ color: '#1F2937' }}>
-              Smarter Messaging
-              <span className="block" style={{ color: '#0EA5E9' }}>Powered by AI Pointers</span>
+              Game, Chat, Earn Prestige
+              <span className="block" style={{ color: '#0EA5E9' }}>Your Aura Awaits</span>
             </h1>
             <p className="mt-6 max-w-2xl mx-auto text-xl" style={{ color: '#6B7280' }}>
-              Get instant, expert messaging guidance — no salespeople, no pressure, just clear pointers to help you communicate better.
+              Play messaging-based online games, complete challenges, and earn prestige points and aura. The more you play, the more you glow.
             </p>
             <div className="mt-10 flex justify-center gap-4 flex-wrap">
               <Link href="/signup" className="px-8 py-4 text-white text-lg font-semibold rounded-lg shadow-lg transition-opacity hover:opacity-90" style={{ backgroundColor: '#0EA5E9' }}>
-                Get Messaging Tips
+                Play & Earn Prestige
               </Link>
               <Link href="/about" className="px-8 py-4 text-lg font-semibold rounded-lg transition-opacity hover:opacity-90 border-2" style={{ color: '#0EA5E9', borderColor: '#0EA5E9', backgroundColor: '#FFFFFF' }}>
                 How It Works
@@ -80,7 +80,7 @@ export default function HomePage() {
           <h2 className="text-4xl font-bold mb-6" style={{ color: '#1F2937' }}>Ready to Get Started?</h2>
           <p className="text-xl mb-10" style={{ color: '#6B7280' }}>Join thousands of people who trust Messaging Pointers for clear, unbiased guidance.</p>
           <Link href="/signup" className="px-10 py-5 text-white text-xl font-semibold rounded-lg shadow-lg transition-opacity hover:opacity-90" style={{ backgroundColor: '#0EA5E9' }}>
-            Get Messaging Tips
+            Play & Earn Prestige
           </Link>
         </div>
       </section>
