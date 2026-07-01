@@ -32,7 +32,7 @@ export default function TermsPage() {
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>5. Contact</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            For questions about these Terms, contact us at support@messagingpointers.com or 8 The Green, Ste A, Dover, DE 19901.
+            For questions about these Terms, contact us at support@messagingpointers.com or 800 N King Street 304-1991, Wilmington, DE 19801.
           </p>
         </div>
       </section>
